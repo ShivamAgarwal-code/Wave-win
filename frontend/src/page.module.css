@@ -1,0 +1,68 @@
+.resultContainer {
+  min-height: 8rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.resultSection {
+  font-size: 1rem;
+  color: #000;
+}
+
+.resultLink a {
+  text-decoration: none;
+}
+
+.resultLink a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  margin-bottom: 3rem;
+}
+
+.verifyButton {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  display: block;
+}
+
+.resultSuccess {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Arial", sans-serif;
+}
+
+.resultError {
+  color: red;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.transactionDetails {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  font-family: "Arial", sans-serif;
+}
+
+.transactionDetails p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.transactionDetails p span {
+  font-weight: bold;
+}
+
+.transactionDetails p:last-child {
+  margin-bottom: 0;
+}

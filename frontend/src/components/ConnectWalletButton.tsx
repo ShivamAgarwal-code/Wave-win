@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect, forwardRef, lazy } from "react";
 import { useAccountSubstrate } from "../contexts/AccountContext";
 // import styles from "./ConnectWalletButton.module.css";

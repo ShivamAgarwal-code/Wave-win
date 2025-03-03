@@ -201,6 +201,7 @@ use serde::Deserialize;
 use std::fs::File;
 use std::io::Write;
 use std::fs;
+use std::DeSerialize;
 
 #[derive(Serialize)]
 struct ProofOutput {

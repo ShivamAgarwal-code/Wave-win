@@ -21,6 +21,7 @@
 use risc0_zkvm::guest::env;
 use risc0_zkvm::sha::{Impl, Sha256};
 use serde::{Deserialize, Serialize};
+use serde::{Serialize, Deserialize};
 
 #[derive(Serialize, Deserialize)]
 struct Input {

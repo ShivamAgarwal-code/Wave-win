@@ -33,6 +33,7 @@ contract Winwave is ERC721, Ownable {
     address public zkVerify; // zkVerify contract
     bytes32 public vkey; // vkey for our circuit
     bytes32 public vhash; // version hash
+    uint256 _attid;
 
     uint256 private _nextTokenId;
     
